@@ -1,3 +1,17 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 50px 20px 50px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .gallery {
   list-style: none;
   padding: 0;
