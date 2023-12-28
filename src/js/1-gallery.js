@@ -85,10 +85,7 @@ const listItem = images
 
 listEl.insertAdjacentHTML('beforeend', listItem);
 
-listEl.addEventListener('click', function (event) {
-  event.preventDefault();
   const gallery = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250
   });
-});
